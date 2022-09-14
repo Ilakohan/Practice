@@ -1,0 +1,220 @@
+@media screen and (min-width: 400px) {
+  body {
+    background-color: #dfe0df;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: #00c9b0;
+  }
+}
+
+p {
+  text-align: center;
+}
+
+.title {
+  background-color: #e6b576;
+  margin-left: 450px;
+  margin-right: 450px;
+}
+
+.main-text {
+  background-color: #b6a999;
+  margin-left: 400px;
+  margin-right: 400px;
+  border: #4f4538;
+}
+
+.search-bar {
+  font-size: 20px;
+  margin-left: 200px;
+}
+
+.button {
+  color: #17c820;
+}
+
+a:link {
+  background-color: #fff7e8;
+}
+
+a:visited {
+  background-color: #4b8178;
+}
+
+a:hover {
+  background-color: #b6a999;
+}
+
+.year-button {
+  color: #825b09;
+  background-color: #fff7e8;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 400px;
+  margin-right: 300px;
+}
+
+.year-button:hover {
+  background-color: #13b8a2;
+  box-shadow: 4px 4px 10px #fff7e8;
+}
+
+h2 {
+  text-align: center;
+}
+h3 {
+  color: #00c9b0;
+  display: inline-block;
+}
+
+.cast-preview {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  color: #fff7e8;
+  font-size: 30px;
+}
+
+.main-text {
+  color: rgb(42, 34, 16);
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  line-height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-block-start-color: crimson;
+}
+
+.span-example {
+  color: #fff7e8;
+  cursor: pointer;
+}
+
+.span-example:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.class-preview {
+  width: 20px;
+}
+
+ul {
+  display: block;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-bottom: 20px;
+}
+
+li {
+  list-style-type: none;
+  text-shadow: 2px 3px 3px rgb(139, 113, 34);
+}
+
+.question {
+  background-color: #fff7e8;
+  margin: 25px 50px 75px 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #09820f;
+  font-size: medium;
+  border-radius: 8px;
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.question:hover {
+  font-weight: bold;
+}
+
+.images-class {
+  display: block;
+  margin-left: 370px;
+  margin-right: auto;
+  object-fit: contain;
+}
+
+.cast-preview {
+  margin-top: 50px;
+
+  margin-left: 400px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #dfe0df;
+  width: 250px;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.card:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.card-image {
+  background-color: #13b8a2;
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px;
+}
+
+.name-title {
+  color: #4f4538;
+  padding: 3px;
+  margin-top: 0px;
+  height: 2px;
+  text-align: center;
+}
+
+.text {
+  color: #b6a999;
+  background-color: #4b8178;
+  border-color: #825b09;
+  height: 100px;
+  font-size: medium;
+}
+
+.card a {
+  background-color: #4f4538;
+  color: #b6a999;
+  padding: 5px 15px;
+  display: block;
+  text-align: center;
+  text-size-adjust: small;
+  margin: 5px 5px;
+  border-radius: 15px;
+}
+
+footer {
+  font-family: "Qwitcher Grypen", cursive;
+  text-align: center;
+  color: #fff7e8;
+  font-size: 20px;
+}
+.search-bar {
+  position: fixed;
+  margin-left: 200px;
+}
