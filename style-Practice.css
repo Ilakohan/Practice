@@ -10,21 +10,10 @@
   }
 }
 
-p {
-  text-align: center;
-}
-
 .title {
   background-color: #e6b576;
   margin-left: 450px;
   margin-right: 450px;
-}
-
-.main-text {
-  background-color: #b6a999;
-  margin-left: 400px;
-  margin-right: 400px;
-  border: #4f4538;
 }
 
 .search-bar {
@@ -85,15 +74,19 @@ body {
   font-size: 30px;
 }
 
+.Plot-part {
+  width: 100%;
+}
 .main-text {
-  color: rgb(42, 34, 16);
+  color: black;
   font-size: large;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  text-align: center;
-  line-height: 30px;
-  border-style: solid;
-  border-color: black;
-  border-block-start-color: crimson;
+  background-color: #b6a999;
+  text-align: justify;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+  border: none;
 }
 
 .span-example {
