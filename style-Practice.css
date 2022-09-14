@@ -189,6 +189,13 @@ li {
   text-align: center;
 }
 
+.picture {
+  border-radius: 15px;
+  background-position: center;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
 .text {
   color: #b6a999;
   background-color: #4b8178;
