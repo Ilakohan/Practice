@@ -16,13 +16,31 @@
   align-content: center;
 }
 
-.search-bar {
-  font-size: 20px;
-  float: right;
+.header {
+  height: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.left-section {
+  width: 20%;
+  color: #825b09;
+  background-color: #fff7e8;
+  font-size: 3rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: center;
 }
 
-.button {
-  color: #17c820;
+.middle-section {
+  flex: 1;
+  width: 60%;
+  margin-left: 10rem;
+  position: relative;
+  font-size: 3rem;
 }
 
 a:link {
@@ -34,26 +52,13 @@ a:visited {
 }
 
 a:hover {
-  background-color: #b6a999;
+  background-color: #5f5b57;
 }
 
-.year-button {
-  color: #825b09;
-  background-color: #fff7e8;
-  font-size: 20px;
-  font-weight: bold;
-  border: none;
-  height: 36px;
-  width: 105px;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-left: 400px;
-  margin-right: 300px;
-}
-
-.year-button:hover {
-  background-color: #13b8a2;
-  box-shadow: 4px 4px 10px #fff7e8;
+.right-section {
+  font-size: 30px;
+  position: fixed;
+  right: 0;
 }
 
 h2 {
