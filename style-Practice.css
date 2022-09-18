@@ -22,12 +22,13 @@
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 8rem;
 }
 .left-section {
   width: 20%;
   color: #825b09;
   background-color: #fff7e8;
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
   border: none;
   border-radius: 8px;
@@ -63,7 +64,11 @@ a:hover {
 
 h2 {
   text-align: center;
+  display: block;
+  font-size: 4em;
+  margin: auto;
 }
+
 h3 {
   color: #00c9b0;
   display: inline-block;
@@ -76,11 +81,11 @@ h3 {
 
 body {
   color: #fff7e8;
-  font-size: 30px;
 }
 
 .Plot-part {
   width: 100%;
+  margin: auto;
 }
 .main-text {
   width: 50%;
