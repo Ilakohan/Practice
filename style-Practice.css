@@ -15,51 +15,49 @@
   margin-left: auto;
   align-content: center;
 }
-
-.header {
-  height: 10px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin-bottom: 8rem;
+* {
+  box-sizing: border-box;
 }
-.left-section {
-  width: 20%;
-  color: #825b09;
-  background-color: #fff7e8;
-  font-size: 4rem;
-  font-weight: bold;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #bd9494;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
   text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.middle-section {
-  flex: 1;
-  width: 60%;
-  margin-left: 10rem;
-  position: relative;
-  font-size: 3rem;
+.topnav a:hover {
+  background-color: #936c00;
+  color: black;
 }
 
-a:link {
-  background-color: #fff7e8;
+.topnav a.active {
+  background-color: #845ec2;
+  color: white;
 }
 
-a:visited {
-  background-color: #4b8178;
+.topnav .search-container {
+  float: right;
 }
 
-a:hover {
-  background-color: #5f5b57;
-}
-
-.right-section {
-  font-size: 30px;
-  position: fixed;
-  right: 0;
+.topnav input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border
 }
 
 h2 {
