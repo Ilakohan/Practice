@@ -15,6 +15,7 @@
   margin-left: auto;
   align-content: center;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -57,19 +58,13 @@ body {
   padding: 6px;
   margin-top: 8px;
   font-size: 17px;
-  border
 }
 
 h2 {
   text-align: center;
   display: block;
   font-size: 4em;
-  margin: auto;
-}
-
-h3 {
-  color: #00c9b0;
-  display: inline-block;
+  margin-top: 3rem;
 }
 
 .cast-preview {
@@ -85,6 +80,7 @@ body {
   width: 100%;
   margin: auto;
 }
+
 .main-text {
   width: 50%;
   color: black;
@@ -127,16 +123,6 @@ ul {
 li {
   list-style-type: none;
   text-shadow: 2px 3px 3px rgb(139, 113, 34);
-}
-
-.last-image {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: #09820f;
-  border-radius: 4rem;
-  cursor: pointer;
-  width: 60%;
-  height: auto;
-  max-width: 390px;
 }
 
 .question:hover {
@@ -213,6 +199,10 @@ li {
   width: 70%;
   height: auto;
   max-width: 390px;
+}
+
+.image-class {
+  margin-left: 30%;
 }
 
 footer {
