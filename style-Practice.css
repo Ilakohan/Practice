@@ -1,35 +1,14 @@
-@media screen and (min-width: 390px) {
-  body {
-    background-color: #00c9b0;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  body {
-    background-color: #dfe0df;
-  }
-}
-
-.title {
-  background-color: #e6b576;
-  margin-left: auto;
-  align-content: center;
-}
-
-* {
-  box-sizing: border-box;
-}
-
+*,
 body {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .topnav {
   overflow: hidden;
-  background-color: #bd9494;
 }
-
 .topnav a {
   float: left;
   display: block;
@@ -42,12 +21,12 @@ body {
 
 .topnav a:hover {
   background-color: #936c00;
-  color: black;
+  color: white;
 }
 
 .topnav a.active {
   background-color: #845ec2;
-  color: white;
+  color: #fff7e8;
 }
 
 .topnav .search-container {
@@ -60,20 +39,26 @@ body {
   font-size: 17px;
 }
 
+.header {
+  margin-top: 10rem;
+  text-align: center;
+  text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  color: white;
+  font: 4em Georgia, serif;
+}
+
 h2 {
   text-align: center;
   display: block;
   font-size: 4em;
   margin-top: 3rem;
+  margin-bottom: 3rem;
+  color: #7e5e06;
 }
 
 .cast-preview {
   display: flex;
   flex-direction: row;
-}
-
-body {
-  color: #fff7e8;
 }
 
 .Plot-part {
@@ -82,57 +67,16 @@ body {
 }
 
 .main-text {
-  width: 50%;
-  color: black;
-  font-size: large;
+  font-size: 3vw;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #b6a999;
-  text-align: justify;
   display: flex;
-  justify-content: middle;
-  align-items: center;
   align-content: center;
-  max-width: 350px;
+  max-width: 560px;
   margin: auto;
-  padding: 30px 30px 30px 30px;
-}
-
-.span-example {
-  color: #fff7e8;
-  cursor: pointer;
-}
-
-.span-example:hover {
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-.class-preview {
-  width: 20px;
-}
-
-ul {
-  display: block;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border-bottom: 20px;
-}
-
-li {
-  list-style-type: none;
-  text-shadow: 2px 3px 3px rgb(139, 113, 34);
-}
-
-.question:hover {
-  font-weight: bold;
-}
-
-.cast-preview {
-  margin-top: 50px;
-
-  margin-left: 400px;
+  border: 49px solid;
+  border-image: url(https://images.rawpixel.com/image_social_landscape/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjExNDMtZnJhbWUxLTAxYS14XzEuanBn.jpg?s=czk87uVX2dAc9Xo6ym1BPeoeipdc9k-mzyOCyh9Xzak)
+    98 / 49px / 30px repeat;
 }
 
 .container {
@@ -154,7 +98,6 @@ li {
 }
 
 .card-image {
-  background-color: #13b8a2;
   height: 150px;
   margin-bottom: 15px;
   background-size: cover;
@@ -163,10 +106,10 @@ li {
 
 .name-title {
   color: #4f4538;
-  padding: 3px;
-  margin-top: 0px;
+  margin: 20px 20px;
   height: 2px;
   text-align: center;
+  font-weight: ;
 }
 
 .picture {
@@ -177,32 +120,40 @@ li {
 }
 
 .text {
-  color: #b6a999;
+  color: #f4f2ef;
   background-color: #4b8178;
-  border-color: #825b09;
   height: 100px;
-  font-size: medium;
+  font-size: small;
+  padding: 10px 15px;
 }
 
 .card a {
   background-color: #4f4538;
-  color: #b6a999;
-  padding: 5px 15px;
+  color: #eecda5;
+  padding: 5px 50px;
   display: block;
   text-align: center;
   text-size-adjust: small;
-  margin: 5px 5px;
-  border-radius: 15px;
+  width: 250px;
+  border-radius: 5px;
 }
 
-.video {
-  width: 70%;
+.Video {
   height: auto;
   max-width: 390px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.image-class {
-  margin-left: 30%;
+.images-class {
+  height: auto;
+  margin: auto;
+  max-width: 390px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 footer {
@@ -214,4 +165,16 @@ footer {
 .search-bar {
   position: fixed;
   margin-left: 200px;
+}
+
+@media screen and (min-width: 390px) {
+  body {
+    background-color: #00c9b0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-color: #dfe0df;
+  }
 }
