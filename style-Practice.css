@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
+  cursor: url ("77225.jpg"), auto;
 }
 
 .topnav {
@@ -94,7 +95,6 @@ h2 {
 
 .card:hover {
   background-color: gray;
-  cursor: pointer;
 }
 
 .card-image {
