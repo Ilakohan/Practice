@@ -29,9 +29,6 @@ body {
   color: #fff7e8;
 }
 
-.topnav .search-container {
-  float: right;
-}
 
 .topnav input[type="text"] {
   padding: 6px;
@@ -148,7 +145,7 @@ h2 {
   border-radius: 5px;
 }
 
-.Video {
+.video {
   height: auto;
   max-width: 390px;
   margin: auto;
@@ -171,10 +168,6 @@ footer {
   text-align: center;
   color: #fff7e8;
   font-size: 20px;
-}
-.search-bar {
-  position: fixed;
-  margin-left: 200px;
 }
 
 @media screen and (min-width: 390px) {
